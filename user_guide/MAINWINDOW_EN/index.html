@@ -1,0 +1,993 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="CertMan Manual">
+      
+      
+        <meta name="author" content="JayKim">
+      
+      
+        <link rel="canonical" href="https://jykim.github.io/certman_manual/user_guide/MAINWINDOW_EN/">
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../MENU_EN/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Main UI - CertMan</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#certman-menu-manual" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CertMan" class="md-header__button md-logo" aria-label="CertMan" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CertMan
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Main UI
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CertMan" class="md-nav__button md-logo" aria-label="CertMan" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    CertMan
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get_start.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    User Guide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Main UI
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Main UI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        File
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#view" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        View
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#server-pro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Server (Pro)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Service
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#help" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Help
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MENU_EN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Menu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        File
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#view" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        View
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#server-pro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Server (Pro)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Service
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#help" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Help
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="certman-menu-manual">CertMan Menu Manual</h1>
+<p>This manual describes the menus implemented by the CertMan main window, using both the application screenshot and the menu/action definitions in <code>src/CertMan/mainwindow.cpp</code> and <code>src/CertMan/mainwindow2.cpp</code>.</p>
+<p><img alt="CertMan main window showing the menu bar and toolbar" src="images/mainwindow.png" /></p>
+<p>The screenshot shows <strong>File</strong>, <strong>View</strong>, <strong>Tools</strong>, <strong>Data</strong>, <strong>Service</strong>, and <strong>Help</strong>. The <strong>Server</strong> menu is added in the Pro edition, so it does not appear in this screenshot. Menu availability also depends on the active license. Toolbar visibility can be customized from <strong>View</strong>.</p>
+<h2 id="file">File</h2>
+<table>
+<thead>
+<tr>
+<th>Menu item</th>
+<th>Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>New</strong></td>
+<td><code>Ctrl+N</code></td>
+<td>Create a new database.</td>
+</tr>
+<tr>
+<td><strong>Open...</strong></td>
+<td><code>Ctrl+O</code></td>
+<td>Open an existing database.</td>
+</tr>
+<tr>
+<td><strong>Remote Database</strong></td>
+<td><code>Ctrl+R</code></td>
+<td>Connect to a remote database.</td>
+</tr>
+<tr>
+<td><strong>Logout</strong></td>
+<td><code>Ctrl+T</code></td>
+<td>Disconnect from the current database.</td>
+</tr>
+<tr>
+<td><strong>Recent Files</strong></td>
+<td>—</td>
+<td>Reopen a recently used database. Up to ten entries are maintained.</td>
+</tr>
+<tr>
+<td><strong>Quit</strong></td>
+<td><code>Ctrl+Q</code></td>
+<td>Exit CertMan.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="view">View</h2>
+<p>The <strong>View</strong> menu is available when a license is active. Its submenus contain checkable items for showing or hiding individual toolbar buttons:</p>
+<ul>
+<li><strong>File ToolBar</strong>: New, Open, Remote Database, and Logout.</li>
+<li><strong>Tool ToolBar</strong>: key generation, request and user creation, certificate and CRL profile creation, certificate/CRL creation, revocation, and the CA/Profile managers. Pro editions also include Make Config and Register Signer.</li>
+<li><strong>Data ToolBar</strong>: Import Data, Get data from URI, Publish to LDAP, Set Passwd, and Change Passwd. Pro editions also include TSP Client.</li>
+<li><strong>Server ToolBar</strong> (Pro): OCSP, TSP, CMP, REG, CC, and KMS server controls.</li>
+<li><strong>Service ToolBar</strong>: TSP, OCSP, CA, and ACME service controls.</li>
+<li><strong>Help ToolBar</strong>: Settings, Clear Log, Log, and About CertMan. Pro editions also include Server Status.</li>
+<li><strong>Set Default</strong>: restore the default toolbar visibility settings. The application may ask to restart to apply toolbar changes.</li>
+</ul>
+<p>These controls affect toolbar visibility; the corresponding commands remain available from their main menus.</p>
+<h2 id="tools">Tools</h2>
+<table>
+<thead>
+<tr>
+<th>Menu item</th>
+<th>Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>New keypair</strong></td>
+<td><code>Shift+F1</code></td>
+<td>Generate a new public/private key pair.</td>
+</tr>
+<tr>
+<td><strong>Make Request</strong></td>
+<td><code>Shift+F2</code></td>
+<td>Create a certificate signing request (CSR).</td>
+</tr>
+<tr>
+<td><strong>Register User</strong></td>
+<td><code>Shift+F4</code></td>
+<td>Register a user.</td>
+</tr>
+<tr>
+<td><strong>Make Config</strong> (Pro)</td>
+<td><code>Shift+F3</code></td>
+<td>Generate configuration information.</td>
+</tr>
+<tr>
+<td><strong>Register Signer</strong> (Pro)</td>
+<td><code>Shift+F5</code></td>
+<td>Register a signer.</td>
+</tr>
+<tr>
+<td><strong>Make Cert Profile</strong></td>
+<td><code>Shift+F6</code></td>
+<td>Create a certificate profile.</td>
+</tr>
+<tr>
+<td><strong>Make CRL Profile</strong></td>
+<td><code>Shift+F7</code></td>
+<td>Create a certificate revocation list (CRL) profile.</td>
+</tr>
+<tr>
+<td><strong>Make Certificate</strong></td>
+<td><code>Shift+F8</code></td>
+<td>Create a certificate.</td>
+</tr>
+<tr>
+<td><strong>Make CRL</strong></td>
+<td><code>Shift+F9</code></td>
+<td>Create a CRL.</td>
+</tr>
+<tr>
+<td><strong>Revoke Certificate</strong></td>
+<td><code>Shift+F10</code></td>
+<td>Revoke a certificate.</td>
+</tr>
+<tr>
+<td><strong>CA Manager</strong></td>
+<td><code>Shift+F11</code></td>
+<td>Open the CA management window.</td>
+</tr>
+<tr>
+<td><strong>Profile Manager</strong></td>
+<td><code>Shift+F11</code></td>
+<td>Open the profile management window.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="data">Data</h2>
+<table>
+<thead>
+<tr>
+<th>Menu item</th>
+<th>Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Import data</strong></td>
+<td><code>Ctrl+Alt+I</code></td>
+<td>Import supported data into the database.</td>
+</tr>
+<tr>
+<td><strong>Get data from URI</strong></td>
+<td><code>Ctrl+Alt+U</code></td>
+<td>Retrieve data from a URI.</td>
+</tr>
+<tr>
+<td><strong>Publish to LDAP</strong></td>
+<td><code>Ctrl+Alt+L</code></td>
+<td>Publish directory data to LDAP. This command is disabled in the unlicensed version.</td>
+</tr>
+<tr>
+<td><strong>Set Passwd</strong></td>
+<td><code>Ctrl+Alt+P</code></td>
+<td>Set a password for a private key. Disabled in the unlicensed version.</td>
+</tr>
+<tr>
+<td><strong>Change Passwd</strong></td>
+<td><code>Ctrl+Alt+C</code></td>
+<td>Change a private key password. Disabled in the unlicensed version.</td>
+</tr>
+<tr>
+<td><strong>TSP Client</strong> (Pro)</td>
+<td><code>Ctrl+Alt+T</code></td>
+<td>Open the Time-Stamp Protocol client tool.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="server-pro">Server (Pro)</h2>
+<p>The <strong>Server</strong> menu is present in the Pro edition. Each command opens the corresponding server setup or management window.</p>
+<table>
+<thead>
+<tr>
+<th>Menu item</th>
+<th>Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>OCSP Server</strong></td>
+<td><code>Shift+O</code></td>
+<td>Configure an Online Certificate Status Protocol (OCSP) server.</td>
+</tr>
+<tr>
+<td><strong>TSP Server</strong></td>
+<td><code>Shift+T</code></td>
+<td>Configure a Time-Stamp Protocol (TSP) server.</td>
+</tr>
+<tr>
+<td><strong>CMP Server</strong></td>
+<td><code>Shift+C</code></td>
+<td>Configure a Certificate Management Protocol (CMP) server.</td>
+</tr>
+<tr>
+<td><strong>REG Server</strong></td>
+<td><code>Shift+R</code></td>
+<td>Configure the registration server.</td>
+</tr>
+<tr>
+<td><strong>CC Server</strong></td>
+<td><code>Shift+A</code></td>
+<td>Configure the CC server.</td>
+</tr>
+<tr>
+<td><strong>KMS Server</strong></td>
+<td><code>Shift+K</code></td>
+<td>Configure a Key Management Service (KMS) server.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="service">Service</h2>
+<p>These commands configure or open the corresponding service. Service commands are disabled in the unlicensed version.</p>
+<table>
+<thead>
+<tr>
+<th>Menu item</th>
+<th>Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TSP Service</strong></td>
+<td><code>Shift+T</code></td>
+<td>Set up the TSP service.</td>
+</tr>
+<tr>
+<td><strong>OCSP Service</strong></td>
+<td><code>Shift+O</code></td>
+<td>Set up the OCSP service.</td>
+</tr>
+<tr>
+<td><strong>CA Service</strong></td>
+<td><code>Shift+C</code></td>
+<td>Set up the CA service.</td>
+</tr>
+<tr>
+<td><strong>ACME Service</strong></td>
+<td><code>Shift+A</code></td>
+<td>Set up the Automatic Certificate Management Environment (ACME) service.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="help">Help</h2>
+<table>
+<thead>
+<tr>
+<th>Menu item</th>
+<th>Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Server Status</strong> (Pro)</td>
+<td>—</td>
+<td>Show server status information.</td>
+</tr>
+<tr>
+<td><strong>Settings</strong></td>
+<td>—</td>
+<td>Open application settings.</td>
+</tr>
+<tr>
+<td><strong>Clear Log</strong></td>
+<td><code>F9</code></td>
+<td>Clear the log output. Disabled in the unlicensed version.</td>
+</tr>
+<tr>
+<td><strong>Log</strong></td>
+<td><code>F10</code></td>
+<td>Toggle log output. Disabled in the unlicensed version.</td>
+</tr>
+<tr>
+<td><strong>License Information</strong></td>
+<td>—</td>
+<td>View license information.</td>
+</tr>
+<tr>
+<td><strong>Bug or Issue Report</strong></td>
+<td>—</td>
+<td>Open the bug and issue reporting destination.</td>
+</tr>
+<tr>
+<td><strong>Q and A</strong></td>
+<td>—</td>
+<td>Open the question-and-answer destination.</td>
+</tr>
+<tr>
+<td><strong>About CertMan</strong></td>
+<td><code>F1</code></td>
+<td>Show information about CertMan.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>Shortcuts use the platform's standard modifier names: <code>Ctrl</code> means Control and <code>Shift</code> means Shift.</li>
+<li>Some commands require an open database or suitable permissions and may be unavailable until those conditions are met.</li>
+<li>The source assigns <code>Shift+F11</code> to both <strong>CA Manager</strong> and <strong>Profile Manager</strong>, and uses the same shortcuts for some Server and Service pairs (<code>Shift+O</code>, <code>Shift+T</code>, <code>Shift+C</code>, and <code>Shift+A</code>). Which command responds can depend on the platform's shortcut handling.</li>
+<li>Menu labels and behavior are based on the main-window implementation in <code>src/CertMan/mainwindow.cpp</code> and <code>src/CertMan/mainwindow2.cpp</code>.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
