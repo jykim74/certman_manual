@@ -11,6 +11,8 @@ theme:
 nav:
   - Home: index.md
   - Getting Started: get_start.md
+  - MacOS Install: macos_install.md
+
   - User Guide:
     - Main UI: user_guide/MAINWINDOW_EN.md
     - Menu: user_guide/MENU_EN.md
