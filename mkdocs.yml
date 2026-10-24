@@ -9,7 +9,7 @@ theme:
     gtag: G-287S0CKBNS
 
 nav:
-  - Home: certman_overview.md
+  - Home: index.md
   - Getting Started: get_start.md
   - User Guide:
     - Main UI: user_guide/MAINWINDOW_EN.md
