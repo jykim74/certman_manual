@@ -1,4 +1,45 @@
-site_name: My Docs
+site_name: CertMan
+site_url: https://jykim.github.io/certman_manual
+site_description: CertMan Manual
+site_author: JayKim
 
 theme:
-  name: readthedocs
+  name: material
+  analytics:
+    gtag: G-287S0CKBNS
+
+nav:
+  - Home: index.md
+  - Getting Started: get_start.md
+  - User Guide:
+    - Main UI: user_guide/MAINWINDOW_EN.md
+    - Menu: user_guide/MENU_EN.md
+
+    - Tools:
+      - New Keypair: user_guide/NEW_KEY_DLG_EN.md
+      - Make Request: user_guide/MAKE_REQ_DLG_EN.md
+      - Register User: user_guide/USER_DLG_EN.md
+      - Make Cert Profile: user_guide/MAKE_CERT_PROFILE_DLG_EN.md
+      - Make CRL Profile: user_guide/MAKE_CRL_PROFILE_DLG_EN.md
+      - Make Certificate: user_guide/MAKE_CERT_DLG_EN.md
+      - Make CRL: user_guide/MAKE_CRL_DLG_EN.md
+      - Revoke Certificate: user_guide/REVOKE_CERT_DLG_EN.md
+      - CA Manager: user_guide/CA_MAN_DLG_EN.md
+      - Profile Manager: user_guide/PROFILE_MAN_DLG_EN.md
+
+    - Data:
+      - Import data: user_guide/IMPORT_DLG_EN.md
+      - Get data from URI: user_guide/GET_URI_DLG_EN.md
+      - Publish to LDAP: user_guide/PUB_LDAP_DLG_EN.md
+      - Set Passwd: user_guide/SET_PASS_DLG_EN.md  
+
+    - Service:
+      - TSP Service: user_guide/TSP_SERVICE_DLG_EN.md
+      - OCSP Service: user_guide/OCSP_SERVICE_DLG_EN.md
+      - CA Service: user_guide/CA_SERVICE_DLG_EN.md
+      - ACME Service: user_guide/ACME_SERVICE_DLG_EN.md
+
+    - Help:
+      - Settings: user_guide/SETTINGS_DLG_EN.md
+      - License Information: user_guide/LCN_INFO_DLG_EN.md
+

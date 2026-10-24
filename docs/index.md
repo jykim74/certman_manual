@@ -1,17 +1,37 @@
-# Welcome to MkDocs
+---
+layout: post
+title: "CertMan ( X509 Cert, CRL Manager )"
+tags: [X.509,Cert,Certificate,CRL,RSA,ECDSA,PKI,CSR,KeyPair]
+category: Software
+---
+ This program is a management program that generates X.509 certificates, CRLs, CSRs and key pairs.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Supported algorithms are RSA and ECDSA algorithms.
+The file can be downloaded from this page link (size is about 30M)
+This is a program I made personally, so if you have any questions or bugs, please Use [Google Groups]( https://groups.google.com/g/certman, "Google Groups" )
 
-## Commands
+[[Download] CertMan Version 2.3.4 (Win64)](https://jykim74.github.io/msi/CertMan-enV234.msi "CertMan")
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+[[Download] CertMan Version 2.3.4 (MacOS)](https://jykim74.github.io/dmg/CertManV234.dmg, "CertMan")
 
-## Project layout
+[[Download] CertMan Version 2.3.4 (Linux64)](https://jykim74.github.io/zip/CertManV234.zip, "CertMan")
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+If you would like to receive a license, simply write a request in [Free License Request](https::/jykim7.mycafe24.com/user_reg.php) and you can receive a trial (30-day) license.
+Of course, you can apply for a license multiple times.
+
+This is a [Manual link]( https://jykim74.tistory.com/category/Manual/CertMan "CertMan Manual")  to the Korean manual page.
+Although it is lacking, the manual page supports a translator.
+
+## License or not licensed
+
+|classification|License Version|Unlicensed Version|
+|---|---|---|
+| Support Algorithm | RSA, ECDSA, DSA, EdDSA, SM2 | RSA |
+| Log Tab | O | X |
+| DB Password change | O | X |
+| LDAP Publish | O | X |
+| Certificate Renew | O | X |
+| HSM PKCS11 | O | X |
+
+[Screen Shot]
+![certman_eng](https://user-images.githubusercontent.com/23622335/231696165-fe011640-a552-4a33-a483-43d4ec50afa4.png)
