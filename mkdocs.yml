@@ -7,11 +7,13 @@ theme:
   name: material
   analytics:
     gtag: G-287S0CKBNS
+  logo: assets/certman.png
 
 nav:
   - Home: index.md
   - Getting Started: get_start.md
   - MacOS Install: macos_install.md
+  - License Features: license_features.md
 
   - User Guide:
     - Main UI: user_guide/MAINWINDOW_EN.md
