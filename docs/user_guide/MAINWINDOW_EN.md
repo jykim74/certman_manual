@@ -1,7 +1,5 @@
 # CertMan Menu Manual
 
-This manual describes the menus implemented by the CertMan main window, using both the application screenshot and the menu/action definitions in `src/CertMan/mainwindow.cpp` and `src/CertMan/mainwindow2.cpp`.
-
 ![CertMan main window showing the menu bar and toolbar](../images/mainwindow.png)
 
 The screenshot shows **File**, **View**, **Tools**, **Data**, **Service**, and **Help**. The **Server** menu is added in the Pro edition, so it does not appear in this screenshot. Menu availability also depends on the active license. Toolbar visibility can be customized from **View**.
