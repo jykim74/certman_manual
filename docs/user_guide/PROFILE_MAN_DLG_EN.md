@@ -1,39 +1,31 @@
-# Profile Manager Dialog Guide
+# Profile Manager Manual
 
-This guide explains the **Profile Man** dialog, titled **Profile Management**. Open it from **Tools > Profile Manager** (`Shift+F11`). It lists certificate, CSR, and CRL profiles saved in the connected database. Other workflows can open it in selection mode to choose a profile.
+The Profile Manager displays the certificate, CSR, and CRL profiles saved in the current CertMan database. In management mode, you can inspect a profile or delete it. Create or modify profiles through the corresponding profile creation tools.
 
 ![Profile Manager dialog](../images/profile_man_dlg.png)
 
-## Management mode
+## Open the dialog
 
-Use the **Certificate Profile** and **CRL Profile** tabs to browse profiles. The Certificate Profile tab includes a type filter for **Certificate** or **CSR** profiles.
+Choose **Tools > Profile Manager** from the main window. The manager opens as a modeless window, so you can return to the main window while it remains open.
 
-| Tab / column | Description |
-|---|---|
-| **Certificate Profile** | Lists certificate or CSR profiles according to the type filter. |
-| **Type filter** | Select **Certificate** or **CSR** to filter the list. |
-| **Num** | Profile database record number. |
-| **NotBefore / NotAfter** | Profile validity start/end or relative validity period. |
-| **Name** | Profile name. |
-| **CRL Profile** | Lists CRL profiles. |
-| **ThisUpdate / NextUpdate** | CRL update start/end or relative update period. |
+## Certificate Profile tab
 
-Select a row and click **View** to inspect the profile or **Delete** to remove it after confirmation. These actions are also available from each table's right-click menu. Double-clicking a row opens its details. The lists are read-only; create and edit profiles through **Tools > Make Cert Profile** or **Tools > Make CRL Profile** and the related profile workflows.
+The **Certificate Profile** tab lists certificate and CSR profiles. Use the selector at the upper right to switch between **Certificate** and **CSR** profiles. The table shows:
 
-## Selection mode
+- **Num**: profile record number.
+- **NotBefore** and **NotAfter**: the configured validity period.
+- **Name**: profile name.
 
-Other dialogs can open Profile Manager as a picker. The caller limits the available choice to a certificate profile, CSR profile, or CRL profile. Only the relevant tab is enabled, management buttons are hidden, and **OK** appears. Select a row and click **OK**, or double-click it, to return its profile record number. Click **Close** to cancel selection.
+Select a row, then click **View** to open the profile details. You can also double-click a row or right-click the table and choose **View**. To remove the selected profile, click **Delete** or use the right-click **Delete** command, then confirm the prompt. The list refreshes after a successful deletion.
 
-## Important implementation note
+## CRL Profile tab
 
-In the current source, **CRL Profile > Delete** calls the certificate-profile deletion function (`delCertProfile`) instead of the CRL-profile deletion function (`delCRLProfile`). As a result, this action does not delete the selected CRL profile and may delete a certificate profile with the same record number. Avoid using **Delete** on the CRL Profile tab until this implementation is corrected.
+The **CRL Profile** tab lists saved CRL profiles. The table shows the profile number, **ThisUpdate**, **NextUpdate**, and **Name**. Select a row and click **View** to inspect its details; double-clicking or using the right-click **View** command also opens the profile. To delete a profile, click **Delete** or choose it from the right-click menu and confirm.
 
 ## Notes
 
-- The dialog requires an open database.
-- Delete actions are confirmed before execution. Certificate-profile deletion uses the certificate-profile database table; CRL-profile deletion is affected by the implementation issue described above.
-- The Certificate Profile type filter switches between ordinary certificate profiles and CSR extension profiles.
+- The tables do not allow direct editing. **View** opens a read-only profile details window.
+- Deletion requires confirmation and removes the selected profile record from the current database.
+- If no row is selected, the manager displays a warning when you request **View** or **Delete**.
+- Click **Close** to close the manager.
 
-## Related implementation
-
-This guide is based on `images/profile_man_dlg.png`, `src/CertMan/profile_man_dlg.ui`, `src/CertMan/profile_man_dlg.h`, and `src/CertMan/profile_man_dlg.cpp`.
