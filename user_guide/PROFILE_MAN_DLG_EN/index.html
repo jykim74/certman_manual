@@ -58,6 +58,9 @@
 
     
     
+  
+  <meta name="google-site-verification" content="qVBKeLLARNTt0GWQdD-wTzRhJV0I_VuURZZXuvj1qY" />
+
   </head>
   
   
@@ -70,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#profile-manager-dialog-guide" class="md-skip">
+        <a href="#profile-manager-manual" class="md-skip">
           Skip to content
         </a>
       
@@ -774,10 +777,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#management-mode" class="md-nav__link">
+  <a href="#open-the-dialog" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Management mode
+        Open the dialog
       
     </span>
   </a>
@@ -785,10 +788,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#selection-mode" class="md-nav__link">
+  <a href="#certificate-profile-tab" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Selection mode
+        Certificate Profile tab
       
     </span>
   </a>
@@ -796,10 +799,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#important-implementation-note" class="md-nav__link">
+  <a href="#crl-profile-tab" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Important implementation note
+        CRL Profile tab
       
     </span>
   </a>
@@ -811,17 +814,6 @@
     <span class="md-ellipsis">
       
         Notes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#related-implementation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Related implementation
       
     </span>
   </a>
@@ -1324,10 +1316,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#management-mode" class="md-nav__link">
+  <a href="#open-the-dialog" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Management mode
+        Open the dialog
       
     </span>
   </a>
@@ -1335,10 +1327,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#selection-mode" class="md-nav__link">
+  <a href="#certificate-profile-tab" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Selection mode
+        Certificate Profile tab
       
     </span>
   </a>
@@ -1346,10 +1338,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#important-implementation-note" class="md-nav__link">
+  <a href="#crl-profile-tab" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Important implementation note
+        CRL Profile tab
       
     </span>
   </a>
@@ -1361,17 +1353,6 @@
     <span class="md-ellipsis">
       
         Notes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#related-implementation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Related implementation
       
     </span>
   </a>
@@ -1395,62 +1376,28 @@
 
 
 
-<h1 id="profile-manager-dialog-guide">Profile Manager Dialog Guide</h1>
-<p>This guide explains the <strong>Profile Man</strong> dialog, titled <strong>Profile Management</strong>. Open it from <strong>Tools &gt; Profile Manager</strong> (<code>Shift+F11</code>). It lists certificate, CSR, and CRL profiles saved in the connected database. Other workflows can open it in selection mode to choose a profile.</p>
+<h1 id="profile-manager-manual">Profile Manager Manual</h1>
+<p>The Profile Manager displays the certificate, CSR, and CRL profiles saved in the current CertMan database. In management mode, you can inspect a profile or delete it. Create or modify profiles through the corresponding profile creation tools.</p>
 <p><img alt="Profile Manager dialog" src="../../images/profile_man_dlg.png" /></p>
-<h2 id="management-mode">Management mode</h2>
-<p>Use the <strong>Certificate Profile</strong> and <strong>CRL Profile</strong> tabs to browse profiles. The Certificate Profile tab includes a type filter for <strong>Certificate</strong> or <strong>CSR</strong> profiles.</p>
-<table>
-<thead>
-<tr>
-<th>Tab / column</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Certificate Profile</strong></td>
-<td>Lists certificate or CSR profiles according to the type filter.</td>
-</tr>
-<tr>
-<td><strong>Type filter</strong></td>
-<td>Select <strong>Certificate</strong> or <strong>CSR</strong> to filter the list.</td>
-</tr>
-<tr>
-<td><strong>Num</strong></td>
-<td>Profile database record number.</td>
-</tr>
-<tr>
-<td><strong>NotBefore / NotAfter</strong></td>
-<td>Profile validity start/end or relative validity period.</td>
-</tr>
-<tr>
-<td><strong>Name</strong></td>
-<td>Profile name.</td>
-</tr>
-<tr>
-<td><strong>CRL Profile</strong></td>
-<td>Lists CRL profiles.</td>
-</tr>
-<tr>
-<td><strong>ThisUpdate / NextUpdate</strong></td>
-<td>CRL update start/end or relative update period.</td>
-</tr>
-</tbody>
-</table>
-<p>Select a row and click <strong>View</strong> to inspect the profile or <strong>Delete</strong> to remove it after confirmation. These actions are also available from each table's right-click menu. Double-clicking a row opens its details. The lists are read-only; create and edit profiles through <strong>Tools &gt; Make Cert Profile</strong> or <strong>Tools &gt; Make CRL Profile</strong> and the related profile workflows.</p>
-<h2 id="selection-mode">Selection mode</h2>
-<p>Other dialogs can open Profile Manager as a picker. The caller limits the available choice to a certificate profile, CSR profile, or CRL profile. Only the relevant tab is enabled, management buttons are hidden, and <strong>OK</strong> appears. Select a row and click <strong>OK</strong>, or double-click it, to return its profile record number. Click <strong>Close</strong> to cancel selection.</p>
-<h2 id="important-implementation-note">Important implementation note</h2>
-<p>In the current source, <strong>CRL Profile &gt; Delete</strong> calls the certificate-profile deletion function (<code>delCertProfile</code>) instead of the CRL-profile deletion function (<code>delCRLProfile</code>). As a result, this action does not delete the selected CRL profile and may delete a certificate profile with the same record number. Avoid using <strong>Delete</strong> on the CRL Profile tab until this implementation is corrected.</p>
+<h2 id="open-the-dialog">Open the dialog</h2>
+<p>Choose <strong>Tools &gt; Profile Manager</strong> from the main window. The manager opens as a modeless window, so you can return to the main window while it remains open.</p>
+<h2 id="certificate-profile-tab">Certificate Profile tab</h2>
+<p>The <strong>Certificate Profile</strong> tab lists certificate and CSR profiles. Use the selector at the upper right to switch between <strong>Certificate</strong> and <strong>CSR</strong> profiles. The table shows:</p>
+<ul>
+<li><strong>Num</strong>: profile record number.</li>
+<li><strong>NotBefore</strong> and <strong>NotAfter</strong>: the configured validity period.</li>
+<li><strong>Name</strong>: profile name.</li>
+</ul>
+<p>Select a row, then click <strong>View</strong> to open the profile details. You can also double-click a row or right-click the table and choose <strong>View</strong>. To remove the selected profile, click <strong>Delete</strong> or use the right-click <strong>Delete</strong> command, then confirm the prompt. The list refreshes after a successful deletion.</p>
+<h2 id="crl-profile-tab">CRL Profile tab</h2>
+<p>The <strong>CRL Profile</strong> tab lists saved CRL profiles. The table shows the profile number, <strong>ThisUpdate</strong>, <strong>NextUpdate</strong>, and <strong>Name</strong>. Select a row and click <strong>View</strong> to inspect its details; double-clicking or using the right-click <strong>View</strong> command also opens the profile. To delete a profile, click <strong>Delete</strong> or choose it from the right-click menu and confirm.</p>
 <h2 id="notes">Notes</h2>
 <ul>
-<li>The dialog requires an open database.</li>
-<li>Delete actions are confirmed before execution. Certificate-profile deletion uses the certificate-profile database table; CRL-profile deletion is affected by the implementation issue described above.</li>
-<li>The Certificate Profile type filter switches between ordinary certificate profiles and CSR extension profiles.</li>
+<li>The tables do not allow direct editing. <strong>View</strong> opens a read-only profile details window.</li>
+<li>Deletion requires confirmation and removes the selected profile record from the current database.</li>
+<li>If no row is selected, the manager displays a warning when you request <strong>View</strong> or <strong>Delete</strong>.</li>
+<li>Click <strong>Close</strong> to close the manager.</li>
 </ul>
-<h2 id="related-implementation">Related implementation</h2>
-<p>This guide is based on <code>images/profile_man_dlg.png</code>, <code>src/CertMan/profile_man_dlg.ui</code>, <code>src/CertMan/profile_man_dlg.h</code>, and <code>src/CertMan/profile_man_dlg.cpp</code>.</p>
 
 
 
