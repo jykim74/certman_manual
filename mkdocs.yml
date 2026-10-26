@@ -5,6 +5,7 @@ site_author: JayKim
 
 theme:
   name: material
+  custom_dir: overrides
   analytics:
     gtag: G-287S0CKBNS
   logo: assets/certman.png
