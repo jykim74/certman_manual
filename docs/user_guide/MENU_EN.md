@@ -31,27 +31,27 @@ These controls affect toolbar visibility; the corresponding commands remain avai
 
 | Menu item | Shortcut | Description |
 |---|---|---|
-| **New keypair** | `Shift+F1` | Generate a new public/private key pair. |
-| **Make Request** | `Shift+F2` | Create a certificate signing request (CSR). |
-| **Register User** | `Shift+F4` | Register a user. |
+| [**New keypair**](NEW_KEY_DLG_EN.md) | `Shift+F1` | Generate a new public/private key pair. |
+| [**Make Request**](MAKE_REQ_DLG_EN.md) | `Shift+F2` | Create a certificate signing request (CSR). |
+| [**Register User**](USER_DLG_EN.md) | `Shift+F4` | Register a user. |
 | **Make Config** (Pro) | `Shift+F3` | Generate configuration information. |
 | **Register Signer** (Pro) | `Shift+F5` | Register a signer. |
-| **Make Cert Profile** | `Shift+F6` | Create a certificate profile. |
-| **Make CRL Profile** | `Shift+F7` | Create a certificate revocation list (CRL) profile. |
-| **Make Certificate** | `Shift+F8` | Create a certificate. |
-| **Make CRL** | `Shift+F9` | Create a CRL. |
-| **Revoke Certificate** | `Shift+F10` | Revoke a certificate. |
-| **CA Manager** | `Shift+F11` | Open the CA management window. |
-| **Profile Manager** | `Shift+F11` | Open the profile management window. |
+| [**Make Cert Profile**](MAKE_CERT_PROFILE_DLG_EN.md) | `Shift+F6` | Create a certificate profile. |
+| [**Make CRL Profile**](MAKE_CRL_PROFILE_DLG_EN.md) | `Shift+F7` | Create a certificate revocation list (CRL) profile. |
+| [**Make Certificate**](MAKE_CERT_DLG_EN.md) | `Shift+F8` | Create a certificate. |
+| [**Make CRL**](MAKE_CRL_DLG_EN.md) | `Shift+F9` | Create a CRL. |
+| [**Revoke Certificate**](REVOKE_CERT_DLG_EN.md) | `Shift+F10` | Revoke a certificate. |
+| [**CA Manager**](CA_MAN_DLG_EN.md) | `Shift+F11` | Open the CA management window. |
+| [**Profile Manager**](PROFILE_MAN_DLG_EN.md) | `Shift+F11` | Open the profile management window. |
 
 ## Data
 
 | Menu item | Shortcut | Description |
 |---|---|---|
-| **Import data** | `Ctrl+Alt+I` | Import supported data into the database. |
-| **Get data from URI** | `Ctrl+Alt+U` | Retrieve data from a URI. |
-| **Publish to LDAP** | `Ctrl+Alt+L` | Publish directory data to LDAP. This command is disabled in the unlicensed version. |
-| **Set Passwd** | `Ctrl+Alt+P` | Set a password for a private key. Disabled in the unlicensed version. |
+| [**Import data**](IMPORT_DLG_EN.md) | `Ctrl+Alt+I` | Import supported data into the database. |
+| [**Get data from URI**](GET_URI_DLG_EN.md) | `Ctrl+Alt+U` | Retrieve data from a URI. |
+| [**Publish to LDAP**](PUB_LDAP_DLG_EN.md) | `Ctrl+Alt+L` | Publish directory data to LDAP. This command is disabled in the unlicensed version. |
+| [**Set Passwd**](SET_PASS_DLG_EN.md) | `Ctrl+Alt+P` | Set a password for a private key. Disabled in the unlicensed version. |
 | **Change Passwd** | `Ctrl+Alt+C` | Change a private key password. Disabled in the unlicensed version. |
 | **TSP Client** (Pro) | `Ctrl+Alt+T` | Open the Time-Stamp Protocol client tool. |
 
@@ -74,20 +74,20 @@ These commands configure or open the corresponding service. Service commands are
 
 | Menu item | Shortcut | Description |
 |---|---|---|
-| **TSP Service** | `Shift+T` | Set up the TSP service. |
-| **OCSP Service** | `Shift+O` | Set up the OCSP service. |
-| **CA Service** | `Shift+C` | Set up the CA service. |
-| **ACME Service** | `Shift+A` | Set up the Automatic Certificate Management Environment (ACME) service. |
+| [**TSP Service**](TSP_SERVICE_DLG_EN.md) | `Shift+T` | Set up the TSP service. |
+| [**OCSP Service**](OCSP_SERVICE_DLG_EN.md) | `Shift+O` | Set up the OCSP service. |
+| [**CA Service**](CA_SERVICE_DLG_EN.md) | `Shift+C` | Set up the CA service. |
+| [**ACME Service**](ACME_SERVICE_DLG_EN.md) | `Shift+A` | Set up the Automatic Certificate Management Environment (ACME) service. |
 
 ## Help
 
 | Menu item | Shortcut | Description |
 |---|---|---|
 | **Server Status** (Pro) | — | Show server status information. |
-| **Settings** | — | Open application settings. |
+| [**Settings**](SETTINGS_DLG_EN.md) | — | Open application settings. |
 | **Clear Log** | `F9` | Clear the log output. Disabled in the unlicensed version. |
 | **Log** | `F10` | Toggle log output. Disabled in the unlicensed version. |
-| **License Information** | — | View license information. |
+| [**License Information**](LCN_INFO_DLG_EN.md) | — | View license information. |
 | **Bug or Issue Report** | — | Open the bug and issue reporting destination. |
 | **Q and A** | — | Open the question-and-answer destination. |
 | **About CertMan** | `F1` | Show information about CertMan. |
