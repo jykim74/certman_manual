@@ -13,7 +13,9 @@ theme:
 nav:
   - Home: index.md
   - Getting Started: get_start.md
-  - MacOS Install: macos_install.md
+  - Windows Install: install_windows.md
+  - MacOS Install: install_macos.md
+  - Linux Install: install_linux.md
   - License Features: license_features.md
 
   - User Guide:
