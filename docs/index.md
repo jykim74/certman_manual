@@ -8,9 +8,9 @@ CertMan is a desktop application for managing X.509 certificates and related PKI
 
 The project currently identifies its application version as **2.3.4**. The platform packages below are linked from the project's download page:
 
-- [Download CertMan 2.3.4 for Windows 64-bit](https://jykim74.github.io/msi/CertMan-enV234.msi)
-- [Download CertMan 2.3.4 for macOS](https://jykim74.github.io/dmg/CertManV234.dmg)
-- [Download CertMan 2.3.4 for Linux 64-bit](https://jykim74.github.io/zip/CertManV234.zip)
+- [Download CertMan 2.3.6 for Windows 64-bit](https://jykim74.github.io/msi/CertMan-enV236.msi)
+- [Download CertMan 2.3.6 for macOS](https://jykim74.github.io/dmg/CertManV236.dmg)
+- [Download CertMan 2.3.6 for Linux 64-bit](https://jykim74.github.io/zip/CertManV236.zip)
 
 See the [CertMan release and update history](https://jykim74.github.io/software/2024/03/08/CertManUpdate.html) for version information. Package availability and supported operating-system details are maintained by the project.
 
