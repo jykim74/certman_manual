@@ -14,9 +14,10 @@ nav:
   - Home: index.md
   - Getting Started: get_start.md
   - Windows Install: install_windows.md
-  - MacOS Install: install_macos.md
-  - Linux Install: install_linux.md
-  - License Features: license_features.md
+  - Install:
+    - MacOS Install: install_macos.md
+    - Linux Install: install_linux.md
+    - License Features: license_features.md
 
   - User Guide:
     - Main UI: user_guide/MAINWINDOW_EN.md
