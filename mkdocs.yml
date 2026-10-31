@@ -9,6 +9,8 @@ theme:
   analytics:
     gtag: G-287S0CKBNS
   logo: assets/certman.png
+  palette:
+    primary: orange
 
 nav:
   - Home: index.md

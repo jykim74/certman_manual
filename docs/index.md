@@ -4,16 +4,6 @@ CertMan is a desktop application for managing X.509 certificates and related PKI
 
 ![CertMan main window](images/mainwindow.png)
 
-## Downloads
-
-The project currently identifies its application version as **2.3.4**. The platform packages below are linked from the project's download page:
-
-- [Download CertMan 2.3.6 for Windows 64-bit](https://jykim74.github.io/msi/CertMan-enV236.msi)
-- [Download CertMan 2.3.6 for macOS](https://jykim74.github.io/dmg/CertManV236.dmg)
-- [Download CertMan 2.3.6 for Linux 64-bit](https://jykim74.github.io/zip/CertManV236.zip)
-
-See the [CertMan release and update history](https://jykim74.github.io/software/2024/03/08/CertManUpdate.html) for version information. Package availability and supported operating-system details are maintained by the project.
-
 ## What you can do
 
 ### Manage PKI records
@@ -34,19 +24,6 @@ The **Data** menu includes import, retrieval from a URI, LDAP publishing, and pr
 
 The **Service** menu contains TSP, OCSP, CA, and ACME service dialogs. These let an operator configure a listener, select the relevant signing or TLS certificates and keys, and start or stop the service. Service controls may be unavailable in the unlicensed edition. The separate **Server** menu provides additional server tools in editions that include them.
 
-## Main window menus
-
-| Menu | Main purpose |
-| --- | --- |
-| **File** | Create, open, or connect to a database; open recent files; log out or quit. |
-| **Tools** | Generate and manage keys, requests, profiles, certificates, CRLs, users, and CA-related records. |
-| **Data** | Import, retrieve, publish, and manage data and private-key passwords. |
-| **Server** | Open supported protocol server tools when available in the installed edition. |
-| **Service** | Configure and control TSP, OCSP, CA, and ACME services. |
-| **Help** | Open settings, license information, issue reporting, Q&A, and About. |
-
-The menus and enabled actions vary with edition, license state, and build configuration. Use **Help > License Information** in the application to review license status.
-
 ## Suggested getting-started workflow
 
 1. Install the package for your operating system and launch CertMan.
@@ -55,13 +32,5 @@ The menus and enabled actions vary with edition, license state, and build config
 4. Create a certificate profile and make a CSR, or use an existing CA and profile to issue a certificate.
 5. Review the resulting records in the main window, then export or publish them as required.
 6. For a service workflow, configure its certificates, keys, profile, and listener in the appropriate **Service** dialog before starting it.
-
-## Licensing and help
-
-CertMan has licensed and unlicensed editions, and some algorithms, data operations, and service features may be limited by edition. Consult the application’s **License Information** dialog for current status and available license actions. A free trial license may be requested through the [license registration page](https://jykim7.mycafe24.com/user_reg.php).
-
-- [Project issue tracker](https://github.com/jykim74/CertMan/issues) for bug reports
-- [Project discussions](https://github.com/jykim74/CertMan/discussions) for questions and answers
-- [Project update history](https://jykim74.github.io/software/2024/03/08/CertManUpdate.html)
 
 [![certman](https://myhits.vercel.app/api/hit/https%3A%2F%2Fjykim74.github.io%2Fcertman_manual?color=yellow&label=certman&size=small)](https://myhits.vercel.app)
