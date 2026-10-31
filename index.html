@@ -269,17 +269,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#downloads" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Downloads
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#what-you-can-do" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -341,32 +330,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#main-window-menus" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Main window menus
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#suggested-getting-started-workflow" class="md-nav__link">
     <span class="md-ellipsis">
       
         Suggested getting-started workflow
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#licensing-and-help" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Licensing and help
       
     </span>
   </a>
@@ -1490,17 +1457,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#downloads" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Downloads
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#what-you-can-do" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1562,32 +1518,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#main-window-menus" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Main window menus
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#suggested-getting-started-workflow" class="md-nav__link">
     <span class="md-ellipsis">
       
         Suggested getting-started workflow
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#licensing-and-help" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Licensing and help
       
     </span>
   </a>
@@ -1614,14 +1548,6 @@
 <h1 id="certman">CertMan</h1>
 <p>CertMan is a desktop application for managing X.509 certificates and related PKI data. It helps users generate and inspect key pairs, certificate signing requests (CSRs), certificates, and certificate revocation lists (CRLs), and organize those records in a database. It also includes tools for certificate profiles, revocation workflows, importing and exporting data, and running selected PKI services.</p>
 <p><img alt="CertMan main window" src="images/mainwindow.png" /></p>
-<h2 id="downloads">Downloads</h2>
-<p>The project currently identifies its application version as <strong>2.3.4</strong>. The platform packages below are linked from the project's download page:</p>
-<ul>
-<li><a href="https://jykim74.github.io/msi/CertMan-enV236.msi">Download CertMan 2.3.6 for Windows 64-bit</a></li>
-<li><a href="https://jykim74.github.io/dmg/CertManV236.dmg">Download CertMan 2.3.6 for macOS</a></li>
-<li><a href="https://jykim74.github.io/zip/CertManV236.zip">Download CertMan 2.3.6 for Linux 64-bit</a></li>
-</ul>
-<p>See the <a href="https://jykim74.github.io/software/2024/03/08/CertManUpdate.html">CertMan release and update history</a> for version information. Package availability and supported operating-system details are maintained by the project.</p>
 <h2 id="what-you-can-do">What you can do</h2>
 <h3 id="manage-pki-records">Manage PKI records</h3>
 <p>CertMan stores and organizes PKI information in a database. A typical workflow is to create or open a database, generate or import a key pair, define a certificate profile, create a CSR, and then issue, import, inspect, export, renew, or revoke certificates as needed. Certificate and CRL profiles let you configure the contents of generated artifacts for different use cases.</p>
@@ -1632,42 +1558,6 @@
 <p>The <strong>Data</strong> menu includes import, retrieval from a URI, LDAP publishing, and private-key password tools. Some actions require a licensed edition. The application also supports integration settings for services such as LDAP, KMIP, OCSP, CMP, TSP, REG, and SCEP, depending on edition and configuration.</p>
 <h3 id="run-pki-services">Run PKI services</h3>
 <p>The <strong>Service</strong> menu contains TSP, OCSP, CA, and ACME service dialogs. These let an operator configure a listener, select the relevant signing or TLS certificates and keys, and start or stop the service. Service controls may be unavailable in the unlicensed edition. The separate <strong>Server</strong> menu provides additional server tools in editions that include them.</p>
-<h2 id="main-window-menus">Main window menus</h2>
-<table>
-<thead>
-<tr>
-<th>Menu</th>
-<th>Main purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>File</strong></td>
-<td>Create, open, or connect to a database; open recent files; log out or quit.</td>
-</tr>
-<tr>
-<td><strong>Tools</strong></td>
-<td>Generate and manage keys, requests, profiles, certificates, CRLs, users, and CA-related records.</td>
-</tr>
-<tr>
-<td><strong>Data</strong></td>
-<td>Import, retrieve, publish, and manage data and private-key passwords.</td>
-</tr>
-<tr>
-<td><strong>Server</strong></td>
-<td>Open supported protocol server tools when available in the installed edition.</td>
-</tr>
-<tr>
-<td><strong>Service</strong></td>
-<td>Configure and control TSP, OCSP, CA, and ACME services.</td>
-</tr>
-<tr>
-<td><strong>Help</strong></td>
-<td>Open settings, license information, issue reporting, Q&amp;A, and About.</td>
-</tr>
-</tbody>
-</table>
-<p>The menus and enabled actions vary with edition, license state, and build configuration. Use <strong>Help &gt; License Information</strong> in the application to review license status.</p>
 <h2 id="suggested-getting-started-workflow">Suggested getting-started workflow</h2>
 <ol>
 <li>Install the package for your operating system and launch CertMan.</li>
@@ -1677,13 +1567,6 @@
 <li>Review the resulting records in the main window, then export or publish them as required.</li>
 <li>For a service workflow, configure its certificates, keys, profile, and listener in the appropriate <strong>Service</strong> dialog before starting it.</li>
 </ol>
-<h2 id="licensing-and-help">Licensing and help</h2>
-<p>CertMan has licensed and unlicensed editions, and some algorithms, data operations, and service features may be limited by edition. Consult the application’s <strong>License Information</strong> dialog for current status and available license actions. A free trial license may be requested through the <a href="https://jykim7.mycafe24.com/user_reg.php">license registration page</a>.</p>
-<ul>
-<li><a href="https://github.com/jykim74/CertMan/issues">Project issue tracker</a> for bug reports</li>
-<li><a href="https://github.com/jykim74/CertMan/discussions">Project discussions</a> for questions and answers</li>
-<li><a href="https://jykim74.github.io/software/2024/03/08/CertManUpdate.html">Project update history</a></li>
-</ul>
 <p><a href="https://myhits.vercel.app"><img alt="certman" src="https://myhits.vercel.app/api/hit/https%3A%2F%2Fjykim74.github.io%2Fcertman_manual?color=yellow&amp;label=certman&amp;size=small" /></a></p>
 
 
