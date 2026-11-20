@@ -25,6 +25,10 @@
          <lastmod>2026-11-20</lastmod>
     </url>
     <url>
+         <loc>https://jykim74.github.io/certman_manual/blog/</loc>
+         <lastmod>2026-11-20</lastmod>
+    </url>
+    <url>
          <loc>https://jykim74.github.io/certman_manual/user_guide/ACME_SERVICE_DLG_EN/</loc>
          <lastmod>2026-11-20</lastmod>
     </url>
@@ -110,10 +114,6 @@
     </url>
     <url>
          <loc>https://jykim74.github.io/certman_manual/user_guide/USER_DLG_EN/</loc>
-         <lastmod>2026-11-20</lastmod>
-    </url>
-    <url>
-         <loc>https://jykim74.github.io/certman_manual/blog/</loc>
          <lastmod>2026-11-20</lastmod>
     </url>
 </urlset>
