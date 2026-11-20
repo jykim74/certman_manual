@@ -1,3 +1,8 @@
+---
+title: "Create a Certificate Signing Request"
+description: "Create and save a certificate signing request in CertMan using a new or existing key pair."
+---
+
 # Make Request Dialog Guide
 
 This guide explains the **Make request** dialog used to create a certificate signing request (CSR). Open it from **Tools > Make Request** (`Shift+F2`). A database connection is required.

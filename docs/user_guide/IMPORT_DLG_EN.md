@@ -1,3 +1,8 @@
+---
+title: "Import PKI Data into CertMan"
+description: "Import private keys, certificates, CSRs, and PFX data into CertMan from files or encoded values."
+---
+
 # Import Data Dialog Guide
 
 This guide explains the **Import data** dialog. Open it from **Data > Import data** (`Ctrl+Alt+I`). A database connection is required.

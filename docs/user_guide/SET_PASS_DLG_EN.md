@@ -1,3 +1,8 @@
+---
+title: "Set a CertMan Database Private Key Password"
+description: "Set the private key password when creating a CertMan database and review the available password options."
+---
+
 # Set Password Dialog Guide
 
 This guide describes the `SetPassDlg` password prompt used when creating a new CertMan database. It is not the dialog opened by **Data > Set Passwd**: that menu action opens the private-key encryption progress window.

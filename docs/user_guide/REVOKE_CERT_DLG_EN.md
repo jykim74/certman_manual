@@ -1,3 +1,8 @@
+---
+title: "Revoke a Certificate in CertMan"
+description: "Record certificate revocation in CertMan and choose the revocation date and reason for CRL generation."
+---
+
 # Revoke Certificate Dialog Guide
 
 This guide explains the **Revoke certificate** dialog. Select a certificate in the main window and choose **Revoke Certificate** from the context menu or **Tools > Revoke Certificate** (`Shift+F10`). A database connection is required.

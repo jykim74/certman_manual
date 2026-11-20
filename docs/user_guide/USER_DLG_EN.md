@@ -1,3 +1,8 @@
+---
+title: "Register and Update Users in CertMan"
+description: "Register or update a CertMan user record with a name, email, status, and optional reference and authorization codes."
+---
+
 # User Dialog Guide
 
 This guide explains CertMan's **Register a user** dialog. Open it from **Tools > Register User**. A database connection is required. The same dialog can also be opened for an existing user to modify that record.

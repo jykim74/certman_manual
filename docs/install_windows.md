@@ -1,3 +1,8 @@
+---
+title: "Install CertMan on Windows"
+description: "Install CertMan on Windows with the 64-bit MSI installer and follow the setup wizard."
+---
+
 # CertMan Windows Installation Guide
 
 This guide explains how to install CertMan using the Windows 64-bit installer. The screenshots below show the CertMan 2.3.4 Setup Wizard.
@@ -38,7 +43,7 @@ When the completion screen appears, click **Finish** to close the Setup Wizard.
 
 ![CertMan Setup Wizard completed](more_images/install_win_5.png)
 
-Find **CertMan** in the Start menu and launch it. On first launch, select **File > New** to create a database or **File > Open** to open an existing one. See the [CertMan Basic Usage Guide](CERTMAN_BASIC_EN.md) for common workflows.
+Find **CertMan** in the Start menu and launch it. On first launch, select **File > New** to create a database or **File > Open** to open an existing one. See the [CertMan Basic Usage Guide](get_start.md) for common workflows.
 
 ## Troubleshooting
 
@@ -51,4 +56,4 @@ Find **CertMan** in the Start menu and launch it. On first launch, select **File
 
 - [CertMan Windows 64-bit installer](https://jykim74.github.io/msi/CertMan-enV234.msi)
 - [CertMan downloads and update history](https://jykim74.github.io/software/2024/03/08/CertManUpdate.html)
-- [CertMan Basic Usage Guide](CERTMAN_BASIC_EN.md)
+- [CertMan Basic Usage Guide](get_start.md)

@@ -1,3 +1,8 @@
+---
+title: "Configure the OCSP Responder in CertMan"
+description: "Configure the CertMan OCSP responder with CA and signing certificates, listener settings, and optional TLS."
+---
+
 # OCSP Service Manual
 
 The OCSP Service dialog runs an Online Certificate Status Protocol (OCSP) responder. Configure its CA certificate, OCSP signing certificate, and listener settings before starting it.

@@ -1,3 +1,8 @@
+---
+title: "Generate a Key Pair in CertMan"
+description: "Generate and save a key pair in CertMan by selecting a cryptographic algorithm, key parameters, and storage destination."
+---
+
 # New Key Pair Dialog Guide
 
 This guide explains the **New keypair** dialog in CertMan. The dialog is opened from **Tools > New keypair** (shortcut: `Shift+F1`). A database must be connected before you can open it.

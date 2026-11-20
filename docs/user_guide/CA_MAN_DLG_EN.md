@@ -1,3 +1,8 @@
+---
+title: "Manage CA Certificates and Keys in CertMan"
+description: "Use the CertMan CA Manager to browse and manage CA certificates, key pairs, and certificate signing requests."
+---
+
 # CA Manager Dialog Guide
 
 This guide explains the **CA Man** dialog, titled **CA Management**. Open it from **Tools > CA Manager** (`Shift+F11`). The dialog lets you browse and manage CA certificates, key pairs, and certificate signing requests (CSRs), or select one of these items when another workflow requests it.

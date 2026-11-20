@@ -1,3 +1,8 @@
+---
+title: "Generate a Certificate Revocation List"
+description: "Generate and save a certificate revocation list in CertMan using a CA certificate and CRL profile."
+---
+
 # Make CRL Dialog Guide
 
 This guide explains the **Make CRL** dialog, which creates a Certificate Revocation List (CRL) for a selected CA certificate. Open it from **Tools > Make CRL** (`Shift+F9`). A database connection is required.

@@ -1,3 +1,8 @@
+---
+title: "Create a CRL Profile in CertMan"
+description: "Configure a reusable certificate revocation list profile in CertMan, including update periods and extensions."
+---
+
 # Make CRL Profile Dialog Guide
 
 This guide explains the **Make CRL policy** dialog, which creates reusable Certificate Revocation List (CRL) profiles. Open it from **Tools > Make CRL Profile** (`Shift+F7`). A database connection is required. Existing profiles can also be edited, copied, or viewed from the Profile Manager.

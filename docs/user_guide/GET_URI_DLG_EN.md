@@ -1,3 +1,8 @@
+---
+title: "Import Certificates and CRLs from a URI"
+description: "Retrieve and import a certificate or CRL into CertMan from an HTTP, HTTPS, or LDAP URI."
+---
+
 # Get Data from URI Dialog Guide
 
 This guide explains the **get data from URI** dialog. Open it from **Data > Get data from URI** (`Ctrl+Alt+U`). The dialog retrieves a certificate or CRL from an HTTP(S) or LDAP location and imports it into CertMan.

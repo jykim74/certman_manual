@@ -1,3 +1,8 @@
+---
+title: "Configure the Timestamp Service in CertMan"
+description: "Set up the CertMan Time-Stamp Protocol service with a signing certificate, private key, and optional TLS."
+---
+
 # TSP Service Manual
 
 The TSP Service dialog runs a Time-Stamp Protocol (TSP) server using a selected TSP signing certificate and private key. You can optionally secure its listener with TLS.

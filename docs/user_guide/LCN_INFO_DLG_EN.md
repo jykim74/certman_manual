@@ -1,3 +1,8 @@
+---
+title: "View and Manage Your CertMan License"
+description: "Review CertMan license details and learn how to request, load, update, or remove a license."
+---
+
 # License Information Manual
 
 The License Information dialog displays the current CertMan license and provides controls to request, load, update, or remove license information.

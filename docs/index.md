@@ -1,3 +1,8 @@
+---
+title: "CertMan: X.509 Certificate and PKI Management"
+description: "Explore CertMan, a desktop tool for managing X.509 certificates, key pairs, CSRs, CRLs, certificate profiles, and PKI services."
+---
+
 # CertMan
 
 CertMan is a desktop application for managing X.509 certificates and related PKI data. It helps users generate and inspect key pairs, certificate signing requests (CSRs), certificates, and certificate revocation lists (CRLs), and organize those records in a database. It also includes tools for certificate profiles, revocation workflows, importing and exporting data, and running selected PKI services.

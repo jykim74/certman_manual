@@ -1,3 +1,8 @@
+---
+title: "CertMan Main Window and Menus"
+description: "Explore the CertMan main window, menus, shortcuts, and toolbar commands for managing PKI data."
+---
+
 # CertMan Menu Manual
 
 ![CertMan main window showing the menu bar and toolbar](../images/mainwindow.png)

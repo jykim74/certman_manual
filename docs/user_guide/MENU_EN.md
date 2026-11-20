@@ -1,3 +1,8 @@
+---
+title: "CertMan Menu Commands and Shortcuts"
+description: "Find CertMan menu commands and keyboard shortcuts for databases, PKI records, services, and application settings."
+---
+
 # CertMan Menu Manual
 
 This manual describes the menus implemented by the CertMan main window. Menu availability can vary by edition and license. Toolbar visibility can also be customized from the **View** menu.

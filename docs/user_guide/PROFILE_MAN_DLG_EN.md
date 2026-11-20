@@ -1,3 +1,8 @@
+---
+title: "Manage Certificate and CRL Profiles"
+description: "View and manage certificate, CSR, and CRL profiles stored in a CertMan database."
+---
+
 # Profile Manager Manual
 
 The Profile Manager displays the certificate, CSR, and CRL profiles saved in the current CertMan database. In management mode, you can inspect a profile or delete it. Create or modify profiles through the corresponding profile creation tools.

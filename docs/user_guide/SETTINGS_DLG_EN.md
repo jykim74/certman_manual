@@ -1,3 +1,8 @@
+---
+title: "Configure CertMan Settings"
+description: "Configure CertMan application preferences, LDAP information, and connected service settings."
+---
+
 # Settings Manual
 
 The Settings dialog contains general application preferences and configuration for connected services. Settings are organized into tabs. Some service settings are available only in the licensed or PRO editions.

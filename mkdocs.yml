@@ -12,6 +12,11 @@ theme:
   palette:
     primary: orange
 
+plugins:
+  - search
+  - blog
+  - rss
+
 nav:
   - Home: index.md
   - Getting Started: get_start.md

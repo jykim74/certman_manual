@@ -1,3 +1,8 @@
+---
+title: "Getting Started with CertMan"
+description: "Learn the basic CertMan workflow for creating a database and managing key pairs, certificate signing requests, certificates, and CRLs."
+---
+
 # CertMan: Basic Usage
 
 CertMan is a desktop application for creating and managing X.509 certificates, certificate signing requests (CSRs), certificate revocation lists (CRLs), and key pairs. Certificate and CRL profiles let you create test data with different settings and exercise common PKI workflows. It is especially useful for PKI development and testing.

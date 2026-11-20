@@ -1,3 +1,8 @@
+---
+title: "Configure the CA Service in CertMan"
+description: "Set up the CertMan certificate authority service with a certificate profile, CA signing key, and optional TLS."
+---
+
 # CA Service Manual
 
 The CA Service dialog starts a Certificate Authority (CA) service. It uses a certificate profile to process requests and a CA certificate/private key to issue certificates. TLS for the listener is optional.

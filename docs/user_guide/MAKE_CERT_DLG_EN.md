@@ -1,3 +1,8 @@
+---
+title: "Issue a Certificate in CertMan"
+description: "Create a self-signed or CA-signed certificate in CertMan using a CSR and certificate profile."
+---
+
 # Make Certificate Dialog Guide
 
 This guide explains the **Make certificate** dialog, which issues a certificate from a certificate signing request (CSR) and a certificate profile. Open it from **Tools > Make Certificate** (`Shift+F8`). A database connection is required.

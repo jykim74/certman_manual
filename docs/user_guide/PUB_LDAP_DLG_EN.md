@@ -1,3 +1,8 @@
+---
+title: "Publish Certificates and CRLs to LDAP"
+description: "Publish a certificate or certificate revocation list from CertMan to an LDAP directory."
+---
+
 # Publish to LDAP Dialog Guide
 
 This guide explains the **Publish to ldap** dialog. Open it from **Data > Publish to LDAP** (`Ctrl+Alt+L`) for a selected certificate or CRL. The command requires a licensed version and an open database.

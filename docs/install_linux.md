@@ -1,3 +1,8 @@
+---
+title: "Install CertMan on Linux"
+description: "Install and launch CertMan on Linux using the ZIP package and CertMan.sh startup script."
+---
+
 # CertMan Linux Installation and Startup Guide
 
 This guide explains how to extract the Linux ZIP package and start CertMan with the included `CertMan.sh` script.
@@ -42,10 +47,10 @@ The prompts and behavior may vary by release and configuration. If the script do
 
 ## 4. Prepare a database
 
-When CertMan opens, select **File > New** to create a database or **File > Open** to open an existing one. Choose a storage location and password, and keep the password and database backup safe. For key-pair, CSR, and certificate workflows, see the [CertMan Basic Usage Guide](CERTMAN_BASIC_EN.md).
+When CertMan opens, select **File > New** to create a database or **File > Open** to open an existing one. Choose a storage location and password, and keep the password and database backup safe. For key-pair, CSR, and certificate workflows, see the [CertMan Basic Usage Guide](get_start.md).
 
 ## References
 
 - [CertMan Linux 64-bit package](https://jykim74.github.io/zip/CertManV234.zip)
 - [CertMan downloads and update history](https://jykim74.github.io/software/2024/03/08/CertManUpdate.html)
-- [CertMan Basic Usage Guide](CERTMAN_BASIC_EN.md)
+- [CertMan Basic Usage Guide](get_start.md)

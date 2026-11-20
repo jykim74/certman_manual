@@ -1,3 +1,8 @@
+---
+title: "CertMan License Features and Comparison"
+description: "Compare licensed and unlicensed CertMan features, including key algorithms, certificate workflows, LDAP publishing, and PKI services."
+---
+
 # CertMan Features by License Status
 
 CertMan can run with a valid license or as an unlicensed version. This page summarizes the feature differences enforced by the application. Availability can also depend on the product edition, build options, and runtime configuration.

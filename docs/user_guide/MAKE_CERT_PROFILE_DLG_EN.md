@@ -1,3 +1,8 @@
+---
+title: "Create a Certificate Profile in CertMan"
+description: "Create reusable CertMan certificate and CSR profiles with validity settings, subject names, and extensions."
+---
+
 # Make Certificate Profile Dialog Guide
 
 This guide explains the **Make cert profile** dialog. Open it from **Tools > Make Cert Profile**. A database connection is required. The dialog creates reusable certificate profiles; existing profiles can also be edited, copied, or viewed from the Profile Manager.
