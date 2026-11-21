@@ -14,7 +14,7 @@ theme:
 extra:
   analytics:
     provider: google
-    gtag: G-BXB3KQW6J7
+    property: G-BXB3KQW6J7
 
 plugins:
   - search
